@@ -44,5 +44,14 @@ SELECT actor.first_name,
        f.title
 FROM actor
          INNER JOIN film_actor fa on actor.actor_id = fa.actor_id
-         INNER JOIN film f on fa.film_id = f.film_id
+         INNER JOIN film f on fa.film_id = f.film_id;
+
+-- Assignment +
+SELECT DISTINCT film.title,
+                film.description
+FROM film
+         INNER JOIN inventory i
+                    ON film.film_id = i.film_id
+                        AND i.store_id = 2
+
 
