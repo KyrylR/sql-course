@@ -71,3 +71,10 @@ SELECT customer_id,
 FROM payment
 WHERE amount > 5
    OR customer_id IN (42,53,60,75);
+
+-- Assignment +
+SELECT
+    title,
+    special_features
+FROM film
+WHERE special_features LIKE '%Behind the Scenes%'
