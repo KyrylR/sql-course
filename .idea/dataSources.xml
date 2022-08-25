@@ -8,11 +8,11 @@
       <jdbc-url>jdbc:mysql://localhost:3306/</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="mavenmovies@localhost" uuid="2b3edfef-e757-44a4-bc0a-75927af0b0d2">
+    <data-source source="LOCAL" name="mavenfuzzyfactory@localhost" uuid="b476c6cd-77fc-407e-9bd7-460b66a96ca4">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://localhost:3306/mavenmovies</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/mavenfuzzyfactory</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>
